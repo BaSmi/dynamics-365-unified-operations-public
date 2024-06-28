@@ -48,7 +48,7 @@ After you complete the prerequisites, you can create an assortment and assign it
 
 You can publish an assortment on the **Assortments** page (**Retail and Commerce** \> **Catalogs and assortments** \> **Assortments**). In this case, an assortment scheduler is created to process the assortment. You can also publish multiple assortments at the same time by going to **Retail and Commerce** \> **Retail and Commerce IT** \> **Products and inventory** \> **Process assortments**. In this case, tasks are created for each assortment that has been published.
 
-If many assortments are configured, the assortment scheduler creates a large number of tasks to publish them in parallel. These tasks consume lots of the AX database's resources. When resource consumption reaches a high level, the tasks might be terminated and fail. To help avoid this situation, we recommend that you enable [priority-based batch scheduling](../fin-ops-core/dev-itpro/sysadmin/priority-based-batch-scheduling.md) and the **(Preview) Batch concurrency control** feature. In this way, you limit the number of concurrent tasks so that they don't fail.
+If many assortments are configured, the assortment scheduler creates a large number of tasks to publish them in parallel. These tasks consume lots of the D365 database's resources. When resource consumption reaches a high level, the tasks might be terminated and fail. To help avoid this situation, we recommend that you enable [priority-based batch scheduling](../fin-ops-core/dev-itpro/sysadmin/priority-based-batch-scheduling.md) and the **(Preview) Batch concurrency control** feature. In this way, you limit the number of concurrent tasks so that they don't fail.
 
 To enable priority-based scheduling, follow these steps.
 
